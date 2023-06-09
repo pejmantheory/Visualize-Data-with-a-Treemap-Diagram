@@ -1,0 +1,34 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lucida Console", "Courier New", monospace;
+    min-height: 100%;
+}
+
+
+svg {
+    background-color: whitesmoke;
+    font: 12px 'Lucida Console';
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+
+#toRow{
+    display: flex;
+    flex-direction: row;
+}
+
+div#tooltip {
+    position: absolute;
+    padding: 5px;
+    font: 1em Arial;
+    background: #DCFFFB;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+    border: 0;
+    border-radius: 2px;
+    pointer-events: none;
+  }
